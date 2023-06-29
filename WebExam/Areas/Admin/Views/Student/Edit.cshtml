@@ -1,0 +1,110 @@
+﻿@model WebExam.DB.Entities.Student
+
+@{
+    ViewBag.Title = "Student";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+}
+
+
+<div class="content-heading row">
+    @if (roleID == "2")
+    {
+        <h2 class="margin-bottom-lg margin-top-lg">Chỉnh sửa thông tin tài khoản: @Html.DisplayFor(model => model.FullName)</h2>
+        <div class="page panel panel-default box-shadow bg-lavender">
+            <div class="panel-body">
+                <div class="form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-detail">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.StudentID)
+
+                            <div class="form-group">
+                                <label for="FullName" class="control-label col-md-6 text-normal">Họ tên</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group"  style="display: none;">
+                                <label for="UserName" class="control-label col-md-6 text-normal">Tài khoản</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                                    <span class="text-danger">@ViewBag.ErrorUserName</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Password" class="control-label col-md-6 text-normal">Mật khẩu</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BirthDay" class="control-label col-md-6 text-normal">Sinh nhật</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.BirthDay, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.BirthDay, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Email" class="control-label col-md-6 text-normal">Email</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Phone" class="control-label col-md-6 text-normal">Số điện thoại</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Address" class="control-label col-md-6 text-normal">Địa chỉ</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Status" class="control-label col-md-6 text-normal">trạng thái hoạt động</label>
+                                <div class="col-md-12">
+                                    <div class="checkbox" style="margin-left:26px !important">
+                                        @Html.EditorFor(model => model.Status)
+                                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="text-center margin-bottom-lg">
+                                    <input type="submit" value="Xác nhận" class="btn btn-primary" />
+                                </div>
+                                <div>
+                                    <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <label style="color:red; font-weight:bold;"> Bạn không có quyền truy cập vào trang này! </label>
+    }
+</div>

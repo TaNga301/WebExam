@@ -1,0 +1,84 @@
+﻿@model WebExam.DB.Entities.Student
+
+@{
+    ViewBag.Title = "Student";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-heading row">
+{
+        <h2 class="margin-bottom-lg margin-top-lg">Thông tin tài khoản của: @Html.DisplayFor(model => model.FullName) </h2>
+        <div class="page panel panel-default box-shadow bg-lavender">
+            <div class="panel-body">
+                <div class="form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-detail">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.StudentID)
+
+                            <table class="table table-striped table-bordered table-hover table-middle">
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Họ tên</td>
+                                    <td colspan="3" style="color: lightslategray; font-size:15px; font-weight:bold;">@Html.DisplayFor(model => model.FullName)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Tên tài khoản</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.UserName)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Mật khẩu</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.Password)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Ngày sinh</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.BirthDay)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Email</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.Email)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Số điện thoại</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.Phone)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">Địa chỉ</td>
+                                    <td colspan="3">@Html.DisplayFor(model => model.Address)</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title" style="font-weight:bold;">trạng thái tài khoản</td>
+                                    <td colspan="3">
+                                        @if (Model.Status == true)
+                                        {
+                                            <button class="btn btn-xs btn-primary" disabled> Hoạt động </button>
+                                        }
+                                        else
+                                        {
+                                            <button class="btn btn-xs btn-danger" disabled> Khóa </button>
+                                        }
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                            <div class="form-group">
+                                <div class="text-center margin-bottom-lg">
+                                    <a class="btn btn-primary" role="button" onclick="history.back();"> Quay lại </a>
+                                </div>
+                                @*<a href="@Url.Action("Edit", "User",new { id = loginId})" role="button">
+                                    Thông tin cá nhân
+                                </a>*@
+                            </div>
+
+
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+</div>

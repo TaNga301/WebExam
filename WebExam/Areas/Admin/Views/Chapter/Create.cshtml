@@ -1,0 +1,63 @@
+﻿@model WebExam.Models.ChapterModel
+
+@{
+    ViewBag.Title = "Tạo chủ đề con";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+}
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+
+<div class="content-heading row">
+    @if (roleID == "2")
+    {
+        <h2 class="margin-bottom-lg margin-top-lg">Tạo chủ đề con</h2>
+        <div class="page panel panel-default box-shadow bg-lavender">
+            <div class="panel-body">
+                <div class="form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-detail">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                <label for="ChapterName" class="control-label col-md-6 text-normal">Tên chủ đề con</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.ChapterName, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.ChapterName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="SubjectID" class="control-label col-md-6 text-normal">Chủ đề</label>
+                                <div class="col-md-12">
+                                    @*@Html.EditorFor(model => model.SubjectID, new { htmlAttributes = new { @class = "form-control" } })*@
+                                    @Html.ValidationMessageFor(model => model.SubjectID, "", new { @class = "text-danger" })
+                                    @Html.DropDownListFor(m => m.SubjectID, Model.Subjects, new { @class = "form-control subjectID" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="text-center margin-bottom-lg">
+                                    <input type="submit" value="Xác nhận" class="btn btn-primary" />
+                                </div>
+                                <div>
+                                    <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <label style="color:red; font-weight:bold;"> Bạn không có quyền truy cập vào trang này! </label>
+    }
+</div>
+

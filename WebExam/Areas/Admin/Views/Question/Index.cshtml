@@ -1,0 +1,117 @@
+﻿@model IPagedList<WebExam.Models.QuestionModel>
+@using PagedList
+@using PagedList.Mvc
+
+
+@{
+    ViewBag.Title = "Question";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+    var SubjectID = @HttpContext.Current.Session["SubjectID"]?.ToString();
+    var intId = Convert.ToInt32(SubjectID);
+    var i = 1;
+}
+
+<div class="content-heading row">
+    <div class="row">
+        <div class="col-sm-21">
+            @{
+                ViewBag.Title = "Danh sách câu hỏi";
+            }
+
+            <h1>
+                @ViewBag.DisplayMessage
+            </h1>
+        </div>
+        <div class="col-sm-2">
+            <a role="button" class="btn btn-primary" href="@Url.Action("Create", "Question")"><i class="fa fa-plus" aria-hidden="true"></i> Thêm</a>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover table-middle">
+
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Câu hỏi
+                </th>
+                <th>
+                    Đáp án
+                </th>
+                <th>
+                    Chủ đề
+                </th>
+                <th>
+                    Chủ đề con
+                </th>
+                <th>
+                    Độ khó
+                </th>
+                @if (roleID == "2")
+                {
+                    <th class="col-sm-3"></th>
+                }
+                else
+                {
+
+                }
+
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @i
+                    </td>
+                    <td>
+                        <a role="button" href="@Url.Action("Detail", "Question", new { id = item.QuestionID })">@Html.DisplayFor(modelItem => item.QuestionContent)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CorrectAnswer)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Subject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Chapter)
+                    </td>
+                    <td>
+                        @if (item.Level_ID == 1)
+                        {
+                            <div class="btn-primary" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Dễ</div>
+                        }
+                        else if (item.Level_ID == 2)
+                        {
+                            <div class="btn-warning" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Thường</div>
+                        }
+                        else if (item.Level_ID == 3)
+                        {
+                            <div class="btn-danger" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Khó</div>
+                        }
+                    </td>
+
+                    @if (roleID == "2")
+                    {
+                        <td>
+                            <a role="button" href="@Url.Action("Edit", "Question", new { id = item.QuestionID })" class="btn btn-xs btn-warning" name="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            <a role="button" href="@Url.Action("Delete", "Question", new { id = item.QuestionID })" class="btn btn-xs btn-danger" name="delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+                    }
+                    else
+                    {
+
+                    }
+                </tr>
+                i++;
+            }
+        </table>
+        <div class="text-center">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions { Display = PagedListDisplayMode.IfNeeded })
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,63 @@
+﻿@model PagedList.IPagedList<WebExam.Models.ExamModel>
+@using PagedList
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+
+
+}
+
+
+
+
+<style>
+    .panel-body {
+        border-bottom: 1px dashed #d17407;
+    }
+
+    .panel-default:not(.panel-unit):not(.download):not(.panel-teacher):not(.panel-rating) {
+        border-bottom: none;
+    }
+
+    .panel-default {
+        border-color: none;
+    }
+</style>
+
+<div class="content-heading row">
+    <div class="viewcat">
+        <div style="font-weight: 100; color: red; text-align:right; padding-right:15px">@Html.Raw(TempData["DisplayMessage"])</div>
+        <div class="test viewlist">
+            <div class="panel panel-default">
+                @foreach (var item in Model)
+                {
+                    if (item.Status == false)
+                    {
+                        <div class="panel-body">
+                            <h2>
+                                <a href="@Url.Action("Detail", "Exams", new { id = item.ExamID })"> @Html.DisplayFor(modelItem => item.SubjectNm): @Html.DisplayFor(modelItem => item.Title)</a>
+                            </h2>
+                            <ul class="exam-info css-exam-info list-inline form-tooltip">
+                                <li class="pointer" data-toggle="tooltip" data-original-title="Số câu"><em class="fa fa-heart-o">&nbsp;</em>@Html.DisplayFor(modelItem => item.NumOfQuestions)<span class="hidden-xs"> Câu</span></li>
+                                <li class="pointer" data-toggle="tooltip" data-original-title="Thời gian"><em class="fa fa-clock-o">&nbsp;</em>@Html.DisplayFor(modelItem => item.ExamTime)<span class="hidden-xs"> phút</span></li>
+                            </ul>
+                            <ul class="list-inline help-block">
+                                <li><em class="fa fa-clock-o" data-original-title="Ngày tạo">&nbsp;</em>@Html.DisplayFor(modelItem => item.CreatedDate)</li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { id = ViewBag.SubjectID, page }), PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new AjaxOptions { UpdateTargetId = "examList" }))
+    </div>
+</div>
+

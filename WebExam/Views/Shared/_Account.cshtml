@@ -1,0 +1,101 @@
+﻿<style>
+    .panel-body h3 {
+        color: #0066cc;
+    }
+
+    .nv-list-item.sm li {
+        padding: 2px;
+    }
+
+    .panel-primary {
+        border: #cccccc 1px solid;
+    }
+
+    .content {
+        background-color: #FFFFFF;
+        border: 1px solid #a8a8a8;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .signed {
+        margin-bottom: 0px;
+    }
+</style>
+
+
+<div class="col-sm-6 col-md-6">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-heading-left clearfix">
+                <div class="icon-menu-left fl">&nbsp;</div>
+                <div class="title-block">
+                    <span>Thành viên</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <form>
+
+                @{
+                    var studentName = @HttpContext.Current.Session["StudentID"]?.ToString();
+                    var name = @HttpContext.Current.Session["Name"]?.ToString();
+                    var isLogin = studentName == null ? false : true;
+                }
+
+                <div class=" margin-bottom-lg">
+                    @if (ViewContext.RouteData.Values["action"].ToString() != "Login" && ViewContext.RouteData.Values["action"].ToString() != "Register")
+                    {
+                        if (!isLogin)
+                        {
+                            <div class="nv-info margin-bottom">Hãy đăng nhập để bắt đầu ôn tập.</div>
+                            <a type="button" class="bsubmit btn btn-primary" href="@Url.Action("Login", "User")">
+                                Đăng nhập
+                            </a>
+                        }
+                        else
+                        {
+
+                            <div class="userBlock">
+                                <h3 class=" margin-bottom-lg"><span class="lev-user text-normal margin-right">Tên:</span>@name</h3>
+                                <div class="row ">
+                                    <div class="col-xs-16">
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Edit","User",new{id = Session["StudentID"]})">Chỉnh sửa thông tin cá nhân</a>
+                                            </li>
+                                            <li>
+                                                <a href="/ExamHistory">Lịch sử ôn tập</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class=" float-right" style="float:right">
+                                        <a type="button" class="btn btn-default btn-sm active" href="@Url.Action("Logout", "User")">
+                                            Thoát
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class=" float-right" style="float: right; color: #6969696b; margin-block-end: auto; padding-top: 5px;">
+                                        <p>Ngày: @DateTime.Now.ToString("dd/MM/yyyy") Thời gian: @DateTime.Now.ToShortTimeString()</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+
+                    }
+                    else
+                    {
+                        <div class="nv-info margin-bottom">Hãy đăng nhập để bắt đầu ôn tập.</div>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

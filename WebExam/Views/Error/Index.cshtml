@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = null;
+    var errCode = ViewBag.ErrorCode;
+    errCode = errCode ?? 500;
+}
+
+@if (errCode == 404)
+{
+    <h2>@Html.Raw(errCode + " - Page not found!")</h2>
+}
+else
+{
+    <h2>@Html.Raw(errCode + " - Something went wrong!")</h2>
+}
+

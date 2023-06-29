@@ -1,0 +1,215 @@
+﻿@{
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+    var loginId = (int)Session["EmployeeID"];
+}
+<style>
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        background-color: #005983;
+        color: #fff000 !important;
+    }
+
+    .dropdown-menu {
+        float: left;
+        padding: 0;
+        top: auto;
+        left: auto;
+        display: none;
+        background: #005983;
+        color: #FFFFFF;
+        border: 1px solid #005983;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.175);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.175);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        list-style: none;
+        font-size: 13px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0,0,0,0.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #FFFFFF;
+    }
+
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        background-color: transparent;
+        color: #f2f2f2;
+    }
+
+    .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+    }
+
+    .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+        background-color: #063b70;
+        color: #fff000 !important;
+    }
+</style>
+<nav>
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+    <div class="nav_content_top">&nbsp;</div>
+    <div class="nav_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-24 col-md-17 col-sm-push-0 col-md-push-0">
+                </div>
+                <div class="col-sm-24 col-md-7 col-sm-pull-0 col-md-pull-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav_content_bottom">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="menu_header">
+                <div class="menu_background">
+                    <div class="icon-menu-left fl">&nbsp;</div>
+                    <div class="icon-menu-right fr">&nbsp;</div>
+                    <div class="navbar navbar-default navbar-static-top" role="navigation">
+                        <div class="collapse navbar-collapse" id="menu-site-default">
+                            <ul class="nav navbar-nav">
+
+                                @if (roleID == "2")
+                                {
+                                    <li>
+                                        <a href="/Admin/Dashboard" role="button">
+                                            DASHBOARD
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/Admin/Employee" role="button"> CỘNG TÁC VIÊN</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Admin/Student" role="button"> NGƯỜI LUYỆN THI</a>
+                                    </li>
+
+
+                                    <li class="dropdown" rol="presentation">
+                                        <a class="dropdown-toggle" href="@Url.Action("Index", "Subject")" role="button" aria-expanded="false"><span>CHỦ ĐỀ</span> <strong class="caret">&nbsp;</strong></a>
+                                        <ul class="dropdown-menu submenu clearfix">
+                                            <li>
+                                                <a role="button" href="/Admin/Subject"> Chủ đề</a>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a role="button" href="@Url.Action("Index", "Chapter")">Chủ đề con</a>
+
+                                                <ul class="dropdown-menu submenu clearfix">
+                                                    @foreach (var i in ViewBag.subject)
+                                                    {
+                                                        <li>
+                                                            <a role="button" href="@Url.Action("Index", "Chapter", new { id = i.SubjectID })">@i.SubjectName</a>
+                                                        </li>
+
+                                                    }
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown" rol="presentation">
+                                        <a class="dropdown-toggle" href="@Url.Action("Index", "Exam")" role="button" aria-expanded="false"><span>ĐỀ THI</span> <strong class="caret">&nbsp;</strong></a>
+                                        <ul class="dropdown-menu submenu clearfix">
+                                            <li class="dropdown-submenu">
+                                                <a role="button" href="@Url.Action("Index", "Question")">Câu hỏi</a>
+
+                                                <ul class="dropdown-menu submenu clearfix">
+                                                    @foreach (var i in ViewBag.subject)
+                                                    {
+                                                        <li>
+                                                            <a role="button" href="@Url.Action("Index", "Question", new { id = i.SubjectID })">@i.SubjectName</a>
+                                                        </li>
+
+                                                    }
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a role="button" href="@Url.Action("Index", "Exam")">Đề thi</a>
+
+                                                <ul class="dropdown-menu submenu clearfix">
+                                                    @foreach (var item in ViewBag.subject)
+                                                    {
+                                                        <li>
+                                                            <a role="button" href="@Url.Action("Index", "Exam", new { id = item.SubjectID })">@item.SubjectName</a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a role="button" href="/Admin/ExamHis">Lịch sử thi</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/Dashboard" role="button">
+                                            DASHBOARD
+                                        </a>
+                                    </li>
+                                    <li class="dropdown" rol="presentation">
+                                        <a class="dropdown-toggle" href="@Url.Action("Index", "Question")" role="button" aria-expanded="false"><span>CÂU HỎI</span> <strong class="caret">&nbsp;</strong></a>
+                                        <ul class="dropdown-menu submenu clearfix">
+                                            @foreach (var item in ViewBag.subject)
+                                            {
+                                                <li class="dropdown-item clearfix">
+                                                    <a role="button" href="@Url.Action("Index", "Question", new { id = item.SubjectID })">@item.SubjectName</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown" rol="presentation">
+                                        <a class="dropdown-toggle" href="@Url.Action("Index", "Exam")" role="button" aria-expanded="false"><span>ĐỀ THI</span> <strong class="caret">&nbsp;</strong></a>
+                                        <ul class="dropdown-menu submenu clearfix">
+                                            @foreach (var item in ViewBag.subject)
+                                            {
+                                                <li class="dropdown-item clearfix">
+                                                    <a role="button" href="@Url.Action("Index", "Exam", new { id = item.SubjectID })">@item.SubjectName</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

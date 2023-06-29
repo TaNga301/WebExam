@@ -1,0 +1,1068 @@
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\WebExam.dll.config
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\WebExam.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\WebExam.pdb
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csc.exe
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csc.exe.config
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csc.rsp
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csi.exe
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csi.exe.config
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\csi.rsp
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Console.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\vbc.exe
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\vbc.exe.config
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\vbc.rsp
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Antlr3.Runtime.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Newtonsoft.Json.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Helpers.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Mvc.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Optimization.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Razor.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\WebGrease.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Helpers.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Mvc.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Optimization.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.Razor.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Newtonsoft.Json.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\obj\Debug\WebExam.csprojAssemblyReference.cache
+D:\[M]_LINH\WebExam\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+D:\[M]_LINH\WebExam\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+D:\[M]_LINH\WebExam\WebExam\WebExam\obj\Debug\WebExam.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\obj\Debug\WebExam.pdb
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\EntityFramework.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\EntityFramework.xml
+D:\[M]_LINH\WebExam\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+D:\Web Project\WebExam\WebExam\bin\WebExam.dll.config
+D:\Web Project\WebExam\WebExam\bin\WebExam.dll
+D:\Web Project\WebExam\WebExam\bin\WebExam.pdb
+D:\Web Project\WebExam\WebExam\bin\roslyn\csc.exe
+D:\Web Project\WebExam\WebExam\bin\roslyn\csc.exe.config
+D:\Web Project\WebExam\WebExam\bin\roslyn\csc.rsp
+D:\Web Project\WebExam\WebExam\bin\roslyn\csi.exe
+D:\Web Project\WebExam\WebExam\bin\roslyn\csi.exe.config
+D:\Web Project\WebExam\WebExam\bin\roslyn\csi.rsp
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Web Project\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Console.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Web Project\WebExam\WebExam\bin\roslyn\vbc.exe
+D:\Web Project\WebExam\WebExam\bin\roslyn\vbc.exe.config
+D:\Web Project\WebExam\WebExam\bin\roslyn\vbc.rsp
+D:\Web Project\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+D:\Web Project\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+D:\Web Project\WebExam\WebExam\bin\Antlr3.Runtime.dll
+D:\Web Project\WebExam\WebExam\bin\EntityFramework.dll
+D:\Web Project\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+D:\Web Project\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web Project\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Project\WebExam\WebExam\bin\Newtonsoft.Json.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.Helpers.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.Mvc.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.Optimization.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.Razor.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.dll
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+D:\Web Project\WebExam\WebExam\bin\WebGrease.dll
+D:\Web Project\WebExam\WebExam\bin\EntityFramework.xml
+D:\Web Project\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.Helpers.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.Mvc.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.Optimization.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.Razor.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+D:\Web Project\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+D:\Web Project\WebExam\WebExam\bin\Newtonsoft.Json.xml
+D:\Web Project\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+D:\Web Project\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web Project\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+D:\Web Project\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+D:\Web Project\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+D:\Web Project\WebExam\WebExam\obj\Debug\WebExam.dll
+D:\Web Project\WebExam\WebExam\obj\Debug\WebExam.pdb
+D:\Web Project\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Web Project\WebExam\WebExam\bin\System.Buffers.dll
+D:\Web Project\WebExam\WebExam\bin\System.Memory.dll
+D:\Web Project\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+D:\Web Project\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Web Project\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+D:\Web Project\WebExam\WebExam\bin\System.Text.Json.dll
+D:\Web Project\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+D:\Web Project\WebExam\WebExam\bin\System.ValueTuple.dll
+D:\Web Project\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Web Project\WebExam\WebExam\bin\System.Buffers.xml
+D:\Web Project\WebExam\WebExam\bin\System.Memory.xml
+D:\Web Project\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+D:\Web Project\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Web Project\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+D:\Web Project\WebExam\WebExam\bin\System.Text.Json.xml
+D:\Web Project\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+D:\Web Project\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\New folder (2)\WebExam\WebExam\obj\Debug\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\test\WebExam\WebExam\obj\Debug\WebExam.pdb
+C:\Users\truong\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\Users\truong\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\Users\truong\Desktop\WebExam\WebExam\obj\Debug\WebExam.dll
+C:\Users\truong\Desktop\WebExam\WebExam\obj\Debug\WebExam.pdb
+C:\Users\truong\Desktop\WebExam\WebExam\bin\WebExam.dll.config
+C:\Users\truong\Desktop\WebExam\WebExam\bin\WebExam.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\WebExam.pdb
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csc.exe
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csc.exe.config
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csc.rsp
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csi.exe
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csi.exe.config
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\csi.rsp
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Console.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\vbc.exe
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\vbc.exe.config
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\vbc.rsp
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\Users\truong\Desktop\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Antlr3.Runtime.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\EntityFramework.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Newtonsoft.Json.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Buffers.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Memory.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Text.Json.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Helpers.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Mvc.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Optimization.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Razor.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\WebGrease.dll
+C:\Users\truong\Desktop\WebExam\WebExam\bin\EntityFramework.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Buffers.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Memory.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Text.Json.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Helpers.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Mvc.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Optimization.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.Razor.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Newtonsoft.Json.xml
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+C:\Users\truong\Desktop\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\truong\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam\WebExam\obj\Debug\WebExam.pdb
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\WebExam.dll.config
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\WebExam.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\WebExam.pdb
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csc.exe
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csc.exe.config
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csc.rsp
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csi.exe
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csi.exe.config
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\csi.rsp
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.AppContext.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Console.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\vbc.exe
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\vbc.exe.config
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\vbc.rsp
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Antlr3.Runtime.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\EntityFramework.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\EntityFramework.SqlServer.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Newtonsoft.Json.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Buffers.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Memory.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Numerics.Vectors.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Text.Encodings.Web.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Text.Json.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Helpers.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Mvc.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Optimization.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Razor.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\WebGrease.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\EntityFramework.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\EntityFramework.SqlServer.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Buffers.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Memory.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Numerics.Vectors.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Text.Encodings.Web.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Text.Json.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.ValueTuple.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Helpers.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Mvc.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Optimization.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.Razor.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Newtonsoft.Json.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Antlr3.Runtime.pdb
+C:\Users\truong\Desktop\WebExam1\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\truong\Desktop\WebExam1\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\Users\truong\Desktop\WebExam1\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\Users\truong\Desktop\WebExam1\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\Users\truong\Desktop\WebExam1\WebExam\obj\Debug\WebExam.dll
+C:\Users\truong\Desktop\WebExam1\WebExam\obj\Debug\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam\WebExam\obj\Debug\WebExam.pdb
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\WebExam.dll.config
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\WebExam.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\WebExam.pdb
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csc.exe
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csc.exe.config
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csc.rsp
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csi.exe
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csi.exe.config
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\csi.rsp
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.AppContext.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Console.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\vbc.exe
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\vbc.exe.config
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\vbc.rsp
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Antlr3.Runtime.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\EntityFramework.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\EntityFramework.SqlServer.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Newtonsoft.Json.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Buffers.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Memory.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Numerics.Vectors.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Text.Encodings.Web.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Text.Json.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.ValueTuple.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Helpers.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Mvc.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Optimization.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Razor.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\WebGrease.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\EntityFramework.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\EntityFramework.SqlServer.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Buffers.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Memory.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Numerics.Vectors.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Text.Encodings.Web.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Text.Json.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.ValueTuple.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Helpers.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Mvc.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Optimization.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.Razor.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Newtonsoft.Json.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Antlr3.Runtime.pdb
+C:\Users\truong\Desktop\WebExam_test\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\truong\Desktop\WebExam_test\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\Users\truong\Desktop\WebExam_test\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\Users\truong\Desktop\WebExam_test\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\Users\truong\Desktop\WebExam_test\WebExam\obj\Debug\WebExam.dll
+C:\Users\truong\Desktop\WebExam_test\WebExam\obj\Debug\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\obj\Debug\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\PagedList.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\PagedList.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\PagedList.xml
+C:\OneDrive\OneDrive - VLG\Desktop\KLTN\project\WebExam_test\WebExam\bin\PagedList.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\WebExam.dll.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\WebExam.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csi.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csi.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\csi.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.AppContext.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Collections.Immutable.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Console.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.IO.Compression.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.IO.FileSystem.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.IO.Pipes.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.AccessControl.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Claims.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Xml.XPath.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\vbc.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\vbc.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\vbc.rsp
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\VBCSCompiler.exe
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\roslyn\VBCSCompiler.exe.config
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Antlr3.Runtime.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\EntityFramework.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\EntityFramework.SqlServer.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Microsoft.Web.Infrastructure.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Newtonsoft.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\PagedList.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\PagedList.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Buffers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Memory.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Numerics.Vectors.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Text.Encodings.Web.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Text.Json.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Threading.Tasks.Extensions.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.ValueTuple.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Helpers.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Mvc.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Optimization.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.Deployment.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.Razor.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\WebGrease.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\EntityFramework.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\EntityFramework.SqlServer.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\PagedList.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\PagedList.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Buffers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Memory.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Numerics.Vectors.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Text.Encodings.Web.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Text.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Threading.Tasks.Extensions.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.ValueTuple.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Helpers.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Mvc.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Optimization.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.Deployment.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\System.Web.WebPages.Razor.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Newtonsoft.Json.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Antlr3.Runtime.pdb
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\obj\Debug\WebExam.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\obj\Debug\WebExam.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\obj\Debug\WebExam.csproj.CopyComplete
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\obj\Debug\WebExam.dll
+C:\OneDrive\OneDrive - VLG\Desktop\WebExam2023\WebExam\obj\Debug\WebExam.pdb

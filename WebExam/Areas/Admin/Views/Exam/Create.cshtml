@@ -1,0 +1,221 @@
+﻿@model WebExam.Models.ExamModel
+
+@{
+    ViewBag.Title = "Exam";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+}
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+
+
+<div class="content-heading row">
+    <h2 class="margin-bottom-lg margin-top-lg">Tạo đề thi</h2>
+    <div class="page panel panel-default box-shadow bg-lavender">
+        <div class="panel-body">
+            <div class="form-horizontal">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(model => model.ExamID)
+                    @Html.HiddenFor(m => m.Status)
+
+                    <div class="form-detail">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <label for="Title" class="control-label col-md-6 text-normal">Tiêu đề đề thi</label>
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ExamTime" class="control-label col-md-6 text-normal">Thời gian thi (phút)</label>
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.ExamTime, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ExamTime, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SubjectID" class="control-label col-md-6 text-normal">Chủ đề</label>
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(m => m.SubjectID, Model.Subjects, new { @class = "form-control SubjecID" })
+                                @Html.ValidationMessageFor(model => model.SubjectID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="Levels" class="control-label col-md-4 text-normal"> </label>
+                            <div class="col-md-16">
+                                <table class="table edit-table">
+                                    @if (Model?.Levels?.Count > 0)
+                                    {
+                                        <tr>
+                                            <th>
+                                                @Html.DisplayName("Chủ đề")
+                                            </th>
+                                            @for (var j = 0; j < Model.Levels[0].Levels.Count; j++)
+                                            {
+                                                <th>
+                                                    @if (Model.Levels[0].Levels[j].LevelID == 1)
+                                                    {
+                                                        @Html.DisplayName("Dễ")
+                                                    }
+                                                    else if (Model.Levels[0].Levels[j].LevelID == 2)
+                                                    {
+                                                        @Html.DisplayName("Thường")
+                                                    }
+                                                    else if (Model.Levels[0].Levels[j].LevelID == 3)
+                                                    {
+                                                        @Html.DisplayName("Khó")
+                                                    }
+                                                </th>
+                                            }
+                                        </tr>
+                                        for (var i = 0; i < Model.Levels.Count; i++)
+                                        {
+                                            @Html.HiddenFor(model => model.Levels[i].ChapterID)
+                                            <tr>
+                                                <td>
+                                                    @Html.EditorFor(model => model.Levels[i].ChapterName, new { htmlAttributes = new { @class = "form-control numOfChapers", @disabled = "disabled" } })
+                                                </td>
+                                                @for (var j = 0; j < Model.Levels[i].Levels.Count; j++)
+                                                {
+                                                    @Html.HiddenFor(model => Model.Levels[i].Levels[j].LevelID)
+                                                    <td>
+                                                        @Html.EditorFor(model => model.Levels[i].Levels[j].NumOfQuestions, new { htmlAttributes = new { @class = "form-control numOfLevels" } })
+                                                        @Html.ValidationMessageFor(model => Model.Levels[i].Levels[j].NumOfQuestions, "", new { @class = "text-danger" })
+                                                    </td>
+                                                }
+                                            </tr>
+                                        }
+                                    }
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="NumOfQuestions" class="control-label col-md-7 text-normal"> Tổng số câu hỏi</label>
+                            <div class="col-md-5">
+                                @Html.HiddenFor(model => model.NumOfQuestions)
+                                <p id="NumOfQuestionsText" style="font-weight: bold; color: blue; padding: 7px 0 12px 12px;">@Model.NumOfQuestions</p>
+                                @Html.ValidationMessageFor(model => model.NumOfQuestions, "", new { @class = "text-danger" })
+                            </div>
+                            @*@if (roleID == "2")
+                            {
+                                <div class="col-md-1">
+                                    <div class="checkbox" style="margin-left:26px !important">
+                                        @Html.EditorFor(model => model.Status)
+                                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <label for="Status" class="control-label col-md-6 text-normal"> Cho phép đề thi hoạt động</label>
+                            }
+                            else
+                            {
+                            }*@
+                        </div>
+
+                        <div class="form-group">
+                            <div class="text-center margin-bottom-lg">
+                                <input type="submit" value="Xác nhận" class="btn btn-primary" />
+                            </div>
+                            <div>
+                                <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="~/Scripts/Lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script>
+    let numOfChapters = $('.numOfChapers').length;
+    let numOfLevels = $('.numOfLevels').length;
+    for (let i = 0; i < numOfLevels / numOfChapters; i++) {
+        for (var j = 0; j < numOfLevels; j++) {
+            let elm = '#Levels_' + i + '__Levels_' + j + '__NumOfQuestions';
+            $(elm).on('focusin', function () {
+                console.log("Saving value " + $(this).val());
+                $(this).data('num', $(this).val());
+            });
+
+            $(elm).change(function (e) {
+                var prevNum = $(this).data('num');
+                var num = Number($('#NumOfQuestions').val()) + Number(e.target.value) - prevNum;
+                $('#NumOfQuestions').val(num);
+                $('#NumOfQuestionsText').text(num);
+                console.log(e.target.value);
+            });
+        }
+    }
+
+    $('#SubjectID').change(function (e) {
+        $.ajax({
+            url: '/Exam/GetLevels/?subID=' + e.target.value,
+            type: 'GET'
+        }).done(function (data) {
+            let jsonData = JSON.parse(data);
+            console.log(jsonData);
+            if (jsonData.length > 0) {
+                let htmlStr = "<tbody><tr><th> Chapter </th>";
+                for (let i = 0; i < jsonData[0].Levels.length; i++) {
+                    htmlStr += "<th> Level " + jsonData[0].Levels[i].LevelID + " </th>";
+                }
+
+                for (let j = 0; j < jsonData.length; j++) {
+                    htmlStr += "<tr><input data-va='true' data-val-number='The field ChapterID must be a number.' data-val-required='The ChapterID field is required.' id='Levels_" + j + "__ChapterID' name='Levels[" + j + "].ChapterName' type='hidden' value='" + jsonData[j].ChapterID + "'/>" +
+                        "<td><input class='form-control numOfChapers text-box single-line' disabled='disabled' id='Levels_" + j + "__ChapterName' name='Levels[" + j + "].ChapterName' type='text' value='" + jsonData[j].ChapterName + "' />" + "</td>";
+
+                    for (let l = 0; l < jsonData[j].Levels.length; l++) {
+                        htmlStr += "<input data-val='true' data-val-number='The field LevelID must be a number.' data-val-required='The LevelID field is required.' id='Levels_" + j + "__Levels_" + l + "__LevelID' name='Levels[" + j + "].Levels[" + l + "].LevelID' type='hidden' value='" + jsonData[j].Levels[l].LevelID + "'/>" +
+                            "<td ><input class='form-control numOfLevels text-box single-line ' data-val='true' data-val-number='The field NumOfQuestions must be a number.' data-val-required='The NumOfQuestions field is required.' id='Levels_" + j + "__Levels_" + l + "__NumOfQuestions' name='Levels[" + j + "].Levels[" + l + "].NumOfQuestions' type='number' value='" + jsonData[j].Levels[l].NumOfQuestions + "'/>" +
+                            "<span class='field-validation-valid text-danger col-lg-2' data-valmsg-for='Levels[" + j + "].Levels[" + l + "].NumOfQuestions' data-valmsg-replace='true'></span></td>";
+                    }
+
+                    htmlStr += "</tr>";
+                }
+
+                htmlStr += "</tbody>"
+                $('.edit-table').html(htmlStr);
+
+                for (let i = 0; i < jsonData.length; i++) {
+                    for (var j = 0; j < jsonData[i].Levels.length; j++) {
+                        let elm = '#Levels_' + i + '__Levels_' + j + '__NumOfQuestions';
+                        $(elm).on('focusin', function () {
+                            console.log("Saving value " + $(this).val());
+                            $(this).data('num', $(this).val());
+                        });
+
+                        $(elm).change(function (e) {
+                            var prevNum = $(this).data('num');
+                            var num = Number($('#NumOfQuestions').val()) + Number(e.target.value) - prevNum;
+                            $('#NumOfQuestions').val(num);
+                            $('#NumOfQuestionsText').text(num);
+                            console.log(e.target.value);
+                        });
+                    }
+                }
+            }
+            else {
+                $('.edit-table').html("");
+            }
+        }).fail(function () {
+            console.log('abc');
+        });
+    });
+</script>

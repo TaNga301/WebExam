@@ -1,0 +1,86 @@
+@media (max-width: 768px)
+#header #logo h1 {
+    text-align: center;
+    float: none;
+    height: 10px;
+}
+body {
+    background: #EBEBEC url(https://www.123freevectors.com/wp-content/original/131012-blue-and-white-triangle-geometric-background-illustration.jpg) repeat;
+    font-size: 13px;
+}
+#body {
+    padding-top: 5px;
+}
+.powered, .powered a {
+    color: #a3bdd0;
+    font-size: 12px;
+    font-weight: bold;
+    display: none;
+}
+
+.panel-body img {
+    margin-right: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+}
+.panel-default > .panel-body h2 a {
+    font-size: 16px;
+}
+#header #logo {
+    padding: 0px; 
+}
+
+#header #logo a img {
+    max-width: 100%;
+    height: auto;
+    opacity: -0.5;
+}
+
+#header-right {
+display: none;
+}
+.nav_content_top {
+display: none;
+}
+.nav_content {
+display: none;
+}
+.nav_content_bottom {
+display: none;
+}
+@media (max-width: 767px) {
+#header {
+    height: 70px;
+}
+}
+.fff-messenger-body-conversation--credit-button {
+    font-size: 12px;
+    color: var(--fff-color-medium)!important;
+    padding: .5em 1em .4em;
+    border-radius: 16px;
+    transition: all 80ms ease 0s;
+    display: none;
+}
+
+fff-messenger-body-conversation--credit {
+    display: none;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 4px 0;
+}
+.basic_drop_bl_item {
+    border: 1px dashed #B2B2B2;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    height: 22px;
+    display: inline;
+    margin: 0 7px -5px;
+    padding: 3px 25px;
+}

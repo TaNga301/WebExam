@@ -1,0 +1,58 @@
+﻿@model WebExam.Models.SubjectModel
+
+@{
+    ViewBag.Title = "Subject";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+}
+<div class="content-heading row">
+    @if (roleID == "2")
+    {
+        <h2 class="margin-bottom-lg margin-top-lg">Chỉnh sửa tên chủ đề: @Html.DisplayFor(model => model.SubjectName)</h2>
+        <div class="page panel panel-default box-shadow bg-lavender">
+            <div class="panel-body">
+                <div class="form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.SubjectID)
+
+                            <div class="form-group">
+                                <label for="Status" class="control-label col-md-6 text-normal">Tên chủ đề</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.SubjectName, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.SubjectName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Status" class="control-label col-md-6 text-normal">Cộng tác viên</label>
+                                <div class="col-md-12">
+                                    @Html.DropDownListFor(model => model.EmployeeID, Model.Employees, new { @class = "form-control EmployeeID" })
+                                    @Html.ValidationMessageFor(model => model.EmployeeID, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="text-center margin-bottom-lg">
+                                    <input type="submit" value="Xác nhận" class="btn btn-primary" />
+                                </div>
+                                <div>
+                                    <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <label style="color:red; font-weight:bold;"> Bạn không có quyền truy cập vào trang này! </label>
+    }
+</div>

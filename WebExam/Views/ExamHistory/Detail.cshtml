@@ -1,0 +1,159 @@
+﻿@model WebExam.Models.ExamHisModel
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+
+<style>
+    .exam-result {
+        color: #428bca;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .score-box .score {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .score-box {
+        font-size: 18px;
+        margin: 4px 0;
+    }
+
+    .panel-default:not(.panel-unit):not(.download):not(.panel-teacher):not(.panel-rating) > .panel-heading {
+        background-repeat: repeat-x;
+        background-position: center;
+        background-color: #FFFFFF;
+        border-color: #FFFFFF;
+        padding: 0px;
+    }
+
+    .test-gird #countdown {
+        color: red;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .cancelLink {
+        font-size: 14px;
+        padding-left: 10px;
+        color: red !important;
+    }
+
+    .exam-info {
+        color: #428bca;
+        font-size: 16px;
+    }
+
+    .template2 {
+        border: 1px solid #CCC;
+        padding: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+        .template2 .exam-info {
+            padding: 10px 0;
+            text-align: left;
+        }
+
+        .template2 h1 {
+            color: #00a651;
+            margin-top: 0;
+        }
+
+        .template2 button {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+</style>
+
+
+@if (Model != null)
+{
+    <div class="content-heading row">
+        <div class="row detail test-gird">
+            <div class="col-xs-24 col-sm-24 col-md-24">
+                <div class="row">
+                    <div class="col-md-8 sticky-exams">
+
+
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(m => m.TakeExamTime)
+
+                        @Html.HiddenFor(model => model.ExamHisID)
+                        @Html.HiddenFor(model => model.ExamTitle)
+                        @Html.HiddenFor(model => model.NumOfQuestions)
+                        @Html.HiddenFor(model => model.Score)
+                        @Html.HiddenFor(model => model.CreatedDate)
+                        <div class="template2">
+                            <h1>Đề thi: @Model.ExamTitle </h1>
+                            <ul class="exam-info">
+                                <div class="text-center score-box">
+                                    <p>Điểm</p>
+                                    <span class="score">@Html.DisplayFor(model => model.Score)</span>
+                                </div>
+                                @*@Html.HiddenFor(model => model.ExamID)
+                                    <li><label>Tên :</label> <br> @Model.StudentName </li>
+                                    <li><label>Số câu</label>: @Model.NumOfQuestions </li>
+                                    <li>
+                                        <label>Thời gian</label>: @Model.ExamTime phút
+                                    </li>*@
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-16">
+                        <div class="testing test-gird m-bottom">
+                            <div class="row">
+                                <div class="col-xs-24 col-md-24">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <div class="row exam-result">
+                                                <ul class="exam-info">
+                                                    <li><label>Thời gian hoàn thành</label>: @Model.TakeExamTime</li>
+                                                    <li><label>Số câu</label>: @Model.NumOfQuestions Câu</li>
+                                                    <li><label>Ngày làm bài</label>: @Model.CreatedDate</li>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form style="float: right">
+                                <input type="hidden" value="1" name="save_test"> <input type="hidden" value="47" name="exam_id"> <input type="hidden" id="current_page"> <input type="hidden" id="show_per_page">
+                                <a href="@Url.Action("ExamDetail", new { id = Model.ExamHisID})" value="Xem chi tiết kết quả bài làm" class="btn btn-success " style="color:white;font-weight:bold;">Xem chi tiết</a>
+                                <a href="@Url.Action("Index")" value="Xem danh sách lịch sử bài làm" class="btn btn-info " style="color:white;font-weight:bold;">Xem danh sách lịch sử</a>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+

@@ -1,0 +1,230 @@
+﻿@model WebExam.Models.QuestionModel
+
+@{
+    ViewBag.Title = "Question";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+
+<div class="content-heading row">
+    <h2 class="margin-bottom-lg margin-top-lg">Thêm câu hỏi</h2>
+    <div class="page panel panel-default box-shadow bg-lavender">
+        <div class="panel-body">
+            <div class="form-horizontal">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.QuestionID)
+                    @Html.HiddenFor(m => m.Status)
+
+                    <div class="form-detail">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        
+
+                        <div class="form-group">
+                            <label for="QuestionContent" class="control-label col-md-6 text-normal">Câu hỏi</label>
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.QuestionContent, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.QuestionContent, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SubjectID" class="control-label col-md-6 text-normal">Chủ đề</label>
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(m => m.SubjectID, Model.Subjects, new { @class = "form-control subjecID" })
+                                @Html.ValidationMessageFor(model => model.SubjectID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ChapterID" class="control-label col-md-6 text-normal">Chủ đề con</label>
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(m => m.ChapterID, Model.Chapters, new { @class = "form-control levelID" })
+                                @Html.ValidationMessageFor(model => model.ChapterID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Level_ID" class="control-label col-md-6 text-normal">Độ khó</label>
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(m => m.Level_ID, Model.Levels, new { @class = "form-control levelID" })
+                                @Html.ValidationMessageFor(model => model.Level_ID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div class="form-group">
+                            <label class="control-label col-md-6 text-normal">Đáp án: </label>
+                            <div class="col-md-15">
+                                <label class="control-label col-md-17 lable" style="text-align:center">Nội dung đáp án</label>
+                                <label class="control-label col-md-7 lable">Đáp án đúng</label>
+                            </div>
+                        </div>
+                        @{
+                            <div class="answer"></div>
+                            string[] answerTitle = { "A", "B", "C", "D" };
+                            if (Model == null || Model.Answers.Count > 0)
+                            {
+                                for (var i = 0; i < Model.Answers.Count; i++)
+                                {
+                                    if (!Model.Answers[i].DelFg)
+                                    {
+                                        Model.Answers[i].AnswerTitle = answerTitle[i];
+                                        <div class="form-group answer">
+                                            <label class="control-label col-md-6" style="color:black">
+                                                @if (i > 1)
+                                                {
+                                                    <i class="icon nalika-delete-button btnDelRow" style="font-size:17px; margin-right: 20px"></i>
+                                                }
+                                                @answerTitle[i]
+                                            </label>
+                                            <div class="col-md-18">
+                                                <div class="col-md-17">
+                                                    @Html.EditorFor(model => model.Answers[i].AnswerContent, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Answers[i].AnswerContent, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="col-md-2" style="margin-top:10px; text-align: center">
+                                                    @Html.CheckBoxFor(model => model.Answers[i].IsCorrect)
+                                                </div>
+                                                @Html.HiddenFor(m => m.Answers[i].NewFg, new { @class = "NewFg" })
+                                                @Html.HiddenFor(m => m.Answers[i].DelFg, new { @class = "DelFg", autocomplete = "off" })
+                                                @Html.HiddenFor(m => m.Answers[i].AnswerID)
+                                                @Html.HiddenFor(m => m.Answers[i].AnswerTitle)
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        @Html.HiddenFor(m => m.Answers[i].AnswerID, new { @class = "NewFg" })
+                                        @Html.HiddenFor(m => m.Answers[i].AnswerTitle, new { @class = "NewFg" })
+                                        @Html.HiddenFor(m => m.Answers[i].AnswerContent, new { @class = "NewFg" })
+                                        @Html.HiddenFor(m => m.Answers[i].NewFg, new { @class = "NewFg" })
+                                        @Html.HiddenFor(m => m.Answers[i].DelFg, new { @class = "DelFg", autocomplete = "off" })
+                                        @Html.HiddenFor(m => m.Answers[i].IsCorrect)
+                                    }
+                                }
+                            }
+
+                            @*<div class="form-group">
+                                <div class="col-md-7" style="text-align: right; margin-top: 20px; padding-right: 40px">
+                                    <button id="btnAddAnswer" type="button"><span>&#10010;</span></button>
+                                </div>
+                            </div>*@
+                        }
+
+                        <div class="form-group">
+                            <div class="text-center margin-bottom-lg">
+                                <input type="submit" value="Xác nhận" class="btn btn-primary" />
+                            </div>
+                            <div>
+                                <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    @Html.Hidden("answerNum", Model.Answers.Count)
+
+                    <div id="anwserRow" style="display: none">
+                        <div class="first form-group">
+                            <label class="control-label col-md-2 answerTitle" style="color:white">
+                            </label>
+                            <div class="col-md-10">
+                                <div class="col-md-11">
+                                    @Html.TextBox("AnswerContent", "", new { @class = "form-control AnswerContent" })
+                                </div>
+                                @Html.Hidden("NewFg", true, new { @class = "NewFg" })
+                                @Html.Hidden("DelFg", false, new { @class = "DelFg" })
+                                @Html.Hidden("AnswerID", "", new { @class = "AnswerID" })
+                                @Html.Hidden("AnswerTitle", "", new { @class = "AnswerTitle" })
+                                <div class="col-md-1" style="margin-top:10px; text-align: center">
+                                    @Html.CheckBox("IsCorrect", false, new { @class = "IsCorrect" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script>
+    $('#SubjectID').change(function (e) {
+        $.ajax({
+            url: '/Chapter/GetBySubjectID/?subID=' + e.target.value,
+            type: 'GET'
+        }).done(function (data) {
+            let jsonData = JSON.parse(data);
+            console.log(jsonData);
+            if (jsonData.length > 0) {
+                let htmlStr = "";
+                for (let i = 0; i < jsonData.length; i++) {
+                    htmlStr += "<option value='" + jsonData[i].ChapterID + "'>" + jsonData[i].ChapterName + "</option>";
+                }
+
+                $('#ChapterID').html(htmlStr);
+            }
+            else {
+                $('#ChapterID').html("");
+            }
+
+        }).fail(function () {
+            console.log('abc');
+        });
+    })
+</script>
+<script>
+                    //$('#btnAddAnswer').on('click', function () {
+                    //    var answerTitles = ["A", "B", "C", "D"]
+                    //    var count = $('#answerNum').val();
+                    //    if (count >= answerTitles.length) return false;
+                    //    var answerTitle = answerTitles[count];
+                    //    var row = $("#anwserRow .first").clone();
+
+                    //    row.addClass("answer");
+                    //    $(row).find('.AnswerContent').attr('id', 'Answers_' + count + '__AnswerContent');
+                    //    $(row).find('.AnswerContent').attr('name', 'Answers[' + count + '].AnswerContent');
+                    //    $(row).find('.AnswerID').attr('id', 'Answers_' + count + '__AnswerID');
+                    //    $(row).find('.AnswerID').attr('name', 'Answers[' + count + '].AnswerID');
+                    //    $(row).find('.AnswerTitle').attr('id', 'Answers_' + count + '__AnswerTitle');
+                    //    $(row).find('.AnswerTitle').attr('name', 'Answers[' + count + '].AnswerTitle');
+                    //    $(row).find('.DelFg').attr('id', 'Answers_' + count + '__DelFg');
+                    //    $(row).find('.DelFg').attr('name', 'Answers[' + count + '].DelFg');
+                    //    $(row).find('.NewFg').attr('id', 'Answers_' + count + '__NewFg');
+                    //    $(row).find('.NewFg').attr('name', 'Answers[' + count + '].NewFg');
+                    //    $(row).find('.IsCorrect').attr('id', 'Answers_' + count + '__IsCorrect');
+                    //    $(row).find('.IsCorrect').attr('name', 'Answers[' + count + '].IsCorrect');
+                    //    $(row).find('input[name="IsCorrect"]').attr('name', 'Answers[' + count + '].IsCorrect');
+                    //    $(row).find('.AnswerTitle').val(answerTitle);
+                    //    $(row).find('.AnswerID').val(0);
+
+                    //    $(row).find('.answerTitle').html("<i class='icon nalika-delete-button btnDelRow' style='font-size: 17px; margin-right: 24px'></i>" + answerTitle);
+                    //    $('.answer:last').after(row);
+                    //    $('#answerNum').val(++count);
+
+                    //    $('.btnDelRow').unbind('click');
+                    //    $('.btnDelRow').click(function () {
+                    //        var row = $(this).closest(".answer");
+                    //        $(row).remove();
+                    //        $(row).find('.AnswerContent').val("abc");
+                    //        $(row).find('.DelFg').val(true);
+
+                    //        return false;
+                    //    });
+                    //});
+
+                    //$('.btnDelRow').click(function () {
+                    //    var row = $(this).closest(".answer");
+                    //    $(row).find('.AnswerContent').val("abc");
+                    //    $(row).remove();
+                    //    $(row).find('.DelFg').val(true);
+
+                    //    return false;
+                    //});;
+</script>

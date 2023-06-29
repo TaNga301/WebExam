@@ -1,0 +1,61 @@
+﻿@model WebExam.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var title = @HttpContext.Current.Session["prePathContentStr"]?.ToString();
+    title = title ?? "Login Here";
+}
+
+<div class="content-heading row">
+    <div style="min-width:300px">
+        <div class="page panel panel-default box-shadow bg-lavender">
+            <div class="panel-body">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @Html.Raw(TempData["SuccessMessage"])
+                    </div>
+                }
+                <h2 class="text-center margin-bottom-lg">Đăng nhập</h2>
+                <div class="nv-info text-center margin-bottom">Hãy đăng nhập để bắt đầu ôn tập.</div>
+                <div class="form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-detail register-form">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                <div class="col-lg-offset-6 col-lg-12">
+                                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", placeholder = "Tên đăng nhập" } })
+                                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                                    <span class="text-danger">@ViewBag.ErrorUsername</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-offset-6 col-lg-12">
+                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", placeholder = "Mật khẩu", @type = "password" } })
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                    <span class="text-danger">@ViewBag.ErrorPassword</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="text-center margin-bottom-lg">
+                                    <input type="submit" value="Đăng nhập" class="btn btn-primary" />
+                                    <a href="@Url.Action("Register","User")">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <div>
+                        <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

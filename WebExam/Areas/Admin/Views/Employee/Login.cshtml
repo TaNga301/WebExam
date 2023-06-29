@@ -1,0 +1,59 @@
+﻿@model WebExam.Models.LoginModel
+
+@{
+    Layout = null;
+    var title = @HttpContext.Current.Session["prePathContentStr"]?.ToString();
+    title = title ?? "Login Here";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/adminlogin/css/admin-login.css" />
+
+    <title>Login</title>
+</head>
+<body>
+
+    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" style="min-height: 100vh; background-size: cover; background-image: url(https://rare-gallery.com/uploads/posts/907011-vector-landscape-minimalism-Moon-nature-clouds.jpg);">
+        <div class="container">
+            <div class="card">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="top-div" style="font-weight: bold;">
+                    <h1>Đăng nhập</h1>
+                    <span style="color:red;">@ViewBag.ErrorUsername</span>
+                    <span style="color:red;">@ViewBag.ErrorPassword</span>
+                </div>
+
+                    <div class="form-group">
+                        <span>Tài khoản</span>
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tài khoản" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <span>Mật khẩu</span>
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @type = "Password", placeholder = "Nhập mật khẩu" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <div class="sign-in">
+                            <button>Đăng nhập</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

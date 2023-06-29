@@ -1,0 +1,90 @@
+﻿<style>
+    .panel-body h3 {
+        color: #0066cc;
+    }
+
+    .nv-list-item.sm li {
+        padding: 2px;
+    }
+
+    .panel-primary {
+        border: #cccccc 1px solid;
+    }
+
+    .content {
+        background-color: #FFFFFF;
+        border: 1px solid #a8a8a8;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .signed {
+        margin-bottom: 0px;
+    }
+</style>
+
+
+<div class="col-sm-6 col-md-6">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-heading-left clearfix">
+                <div class="icon-menu-left fl">&nbsp;</div>
+                <div class="title-block">
+                    <span>Thôn tin</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <form>
+
+                @{
+                    var Name = @HttpContext.Current.Session["Username"]?.ToString();
+                    var userName = @HttpContext.Current.Session["Name"]?.ToString();
+                    var isLogin = Name == null ? false : true;
+                    var role = @HttpContext.Current.Session["RoleName"]?.ToString();
+                    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+                    var loginId = (int)Session["EmployeeID"];
+                }
+
+                <div class=" margin-bottom-lg">
+                    <div class="userBlock">
+                        @if (!isLogin)
+                        {
+                        }
+                        else
+                        {
+                            if (role == "Admin")
+                            {
+                                <h3 class=" margin-bottom-lg" style="font-weight:bold;"><span class="lev-user text-normal margin-right">Tài khoản:</span>Quản trị viên</h3>
+                            }
+                            else
+                            {
+                                <h3 class=" margin-bottom-lg" style="font-weight:bold;"><span class="lev-user text-normal margin-right">Tài khoản:</span>@role</h3>
+                            }
+
+                            <h3 class=" margin-bottom-lg"><span class="lev-user text-normal margin-right">Tên:</span>@userName</h3>
+                            <li>
+                                <a href="@Url.Action("Detail", "Employee",new { id = loginId})" role="button">
+                                    Thông tin cá nhân
+                                </a>
+                            </li>
+                            <div class="row">
+                                <div class="col-xs-8 text-right float-right" style="float:right">
+                                    <a type="button" class="btn btn-default btn-sm active" href="@Url.Action("Logout", "Employee")">
+                                        Thoát
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" float-right" style="float:right; color:dimgrey;">
+                                    <p class=" float-right" style="float: right; color: #6969696b; margin-block-end: auto; padding-top: 5px;">Ngày: @DateTime.Now.ToString("dd/MM/yyyy") Thời gian: @DateTime.Now.ToShortTimeString()</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

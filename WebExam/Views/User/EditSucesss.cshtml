@@ -1,0 +1,21 @@
+﻿@model WebExam.DB.Entities.Student
+
+@{
+    ViewBag.Title = "Student";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var name = @HttpContext.Current.Session["Name"]?.ToString();
+}
+
+
+<div class="content-heading row">
+
+    <h2 class="margin-bottom-lg margin-top-lg">Chỉnh sửa thông tin tài khoản: @name</h2>
+    <div class="page panel panel-default box-shadow bg-lavender">
+        <div class="panel-body">
+            <div class="form-horizontal" style="color:seagreen; font-size:15px">
+                <li>Sửa thông tin Thành Công</li>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,88 @@
+﻿@model WebExam.Models.QuestionModel
+
+@{
+    ViewBag.Title = "Question";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var roleID = @HttpContext.Current.Session["RoleID"]?.ToString();
+    var SubjectID = @HttpContext.Current.Session["SubjectID"]?.ToString();
+    var intId = Convert.ToInt32(SubjectID);
+}
+
+
+@Html.HiddenFor(model => model.QuestionID)
+@Html.HiddenFor(model => model.Status)
+
+<div class="content-heading row">
+    <table class="table table-striped table-bordered table-hover table-middle">
+        <tr>
+            <th class="table-title" style="font-weight:bold;">Câu hỏi:</th>
+            <td colspan="3" style="font-size:15px; font-weight: bold; color:dimgray">@Html.DisplayFor(model => model.QuestionContent)</td>
+        </tr>
+        <tr>
+            <th class="table-title" style="font-weight:bold;">Chủ đề</th>
+            <td colspan="3">@Html.DisplayFor(model => model.SubjectName)</td>
+        </tr>
+        <tr>
+            <th class="table-title" style="font-weight:bold;">Chủ đề con</th>
+            <td colspan="3">@Html.DisplayFor(model => model.ChapterName)</td>
+        </tr>
+        <tr>
+            <td class="table-title" style="font-weight:bold;">Độ khó</td>
+            <td colspan="3">
+                @if (Model.Level_ID == 1)
+                {
+                    <div class="btn-primary" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Dễ</div>
+                }
+                else if (Model.Level_ID == 2)
+                {
+                    <div class="btn-warning" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Thường</div>
+                }
+                else if (Model.Level_ID == 3)
+                {
+                    <div class="btn-danger" style=" width: fit-content; border-radius: 5px; padding: 2px 7px 2px 5px; font-weight: bold; color: white;">Khó</div>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td class="table-title" style="font-weight:bold;">Ngày tạo</td>
+            <td colspan="3">@Html.DisplayFor(model => model.CreatedDate)</td>
+        </tr>
+        <tr>
+            <th class="table-title" rowspan=@Html.Raw(Model.Answers.Count + 1)>Đáp án</th>
+
+
+
+        </tr>
+        @for (var i = 0; i < Model.Answers.Count; i++)
+        {
+            <tr>
+                <td style="font-size: 15px;"><a style="font-weight:bold;">@Html.DisplayFor(model => Model.Answers[i].AnswerTitle)</a>. @Html.DisplayFor(model => Model.Answers[i].AnswerContent) </td>
+                <td style="font-size: 15px;">@Html.DisplayFor(model => Model.Answers[i].IsCorrect)</td>
+            </tr>
+        }
+    </table>
+
+
+    @if (roleID == "2")
+    {
+        <p>
+            <a role="button" href="@Url.Action("Edit", "Question", new { id = Model.QuestionID })" class="btn btn-xs btn-warning" name="edit">Chỉnh sửa</a>
+            <a role="button" href="@Url.Action("Delete", "Question", new { id = Model.QuestionID })" class="btn btn-xs btn-danger" name="delete">Xóa</a>
+            <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+        </p>
+    }
+    else
+    {
+        if (Model.SubjectID == intId)
+        {
+            <p>
+                <a role="button" href="@Url.Action("Edit", "Question", new { id = Model.QuestionID })" class="btn btn-xs btn-warning" name="edit">Chỉnh sửa</a>
+                <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+            </p>
+        }
+        else
+        {
+            <a value="Quay lại" role="button" onclick="history.back();"> Quay lại </a>
+        }
+    }
+</div>
